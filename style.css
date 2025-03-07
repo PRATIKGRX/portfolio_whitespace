@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 60px;
+    background: rgb(14, 14, 95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .nav-logo {
+    color: white;
+}
+
+.navbar .nav-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.navbar .nav-icon-container .nav-icons ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navbar .nav-icon-container .nav-icons ul li select {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.navbar .nav-button {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-button .test {
+    border: none;
+    background: rgb(255, 255, 38);
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+.universal-button {
+    border: none;
+    background: rgb(88, 127, 255);
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: white;
+}
+
+
+
+/**/
+
+.hero-section {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 70px 80px;
+    padding-top: 130px;
+    align-items: center;
+    background-color: rgb(14, 14, 95);
+    color: white;
+
+}
+
+.hero-section .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+
+}
+
+.hero-section .hero-content p {
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content1 {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/* this is first section*/
+
+.section-first {
+    padding: 60px 80px;
+    height: 130vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+.section-first .content{
+    height: 100%;
+    width: 100%;
+}
+.section-first .content h1{
+    font-size: 42px;
+    margin-top: 30px;
+}
+.section-first .content p{
+    margin-bottom: 24px;
+}
+.section-first .content1{
+    background-color: skyblue;
+    height: 100%;
+    width: 100%;
+}
+.section-first .content2{
+    background-color: red;
+    height: 100%;
+}
+.section-first .content3 h1{
+    margin-top: 60px;
+    font-size: 42px;
+}
+.section-first .content3 p{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+/* this is the section second*/
+
+.section-second{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 80vh;
+    gap: 0px;
+    padding: 70px 80px;
+    background-color: rgb(14, 14, 95);
+    color: white;
+}
+.section-second .container{
+    display: flex;
+    align-items: center;
+}
+.section-second .container .content h1{
+    font-size: 42px;
+}
+.section-second .container .content p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section-second .content1{
+    background: skyblue;
+}
+
+/* this is the third section*/
+
+.section-third{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding: 70px 80px;
+    height: 80vh;
+}
+.section-third .content{
+    height: 100%;
+    background: skyblue;
+}
+.section-third .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-third .container .content1 h1{
+    font-size: 42px;
+}
+.section-third .container .content1 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*this is fourth*/
+.section-fourth{
+    height: 140vh;
+    padding: 60px 80px;
+}
+.section-fourth p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section-fourth h1{
+    font-size: 42px;
+    text-align: center;
+}
+.section-fourth .container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    align-items: center;
+}
+.section-fourth .container .content{
+    height: 85%;
+    border: 1px solid gold;
+    border-radius: 12px;
+    padding: 40px 20px;
+}
+.section-fourth .container .content h4{
+    margin-bottom: 20px;
+}
+.section-fourth .container .content h3{
+    font-size: 30px;
+}
+.section-fourth .container .content p{
+    text-align: left;
+    line-height: 34px;
+}
+.section-fourth .container .content .gold-button{
+    border: 1px solid gold;
+    background: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: black;
+}
+.section-fourth .container .content1{
+    height: 100%;
+    border-radius: 12px;
+    padding: 40px 20px;
+    background-color: rgb(14, 14, 95);
+    color: white;
+
+}
+.section-fourth .container .content1 h4{
+    margin-bottom: 20px;
+}
+.section-fourth .container .content1 h3{
+    font-size: 38px;
+    color: gold;
+}
+.section-fourth .container .content1 p{
+    text-align: left;
+    line-height: 38px;
+    font-size: 18px;
+}
+
+/* this is section five*/
+
+.section-five{
+    padding: 60px 80px;
+    height: 50vh;
+    background: blue;
+    color: white;
+   
+    
+}
+.section-five h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 42px;
+}
+.section-five p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.section-five .content{
+    display: flex;
+    justify-content: center;
+}
+
+/**/
+.section-six{
+    height: 120vh;
+    padding: 80px;
+
+}
+.section-six h1{
+    text-align: center;
+    font-size: 42px;
+}
+.section-six .container{
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.section-six .container .content h1{
+    font-size: 42px;
+}
+.section-six .container .content p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.section-six .container1{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
+
+/**/
+
+.section-seven{
+    background: blue;
+    color: white;
+    padding: 60px 80px;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+}
+.section-seven .content1 h1{
+    font-size: 42px;
+}
+.section-seven .content1 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section-eight{
+    padding: 60px 80px;
+    height: 90vh;
+}
+.section-eight h1{
+    font-size: 42px;
+    text-align: center;
+}
+.section-eight .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.section-eight .container .content{
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 3px rgb(201, 201, 201);
+}
+.section-eight .container .content h1{
+    font-size: 100px;
+    text-align: left;
+}
+.section-eight .container .content p{
+    margin-bottom: 30px;
+}
+.section-eight .container .content hr{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.section-eight .container .content-logo{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 20% 80%;
+    gap: 14px;
+}
+.section-eight .container .content-logo h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-eight .container .content1{
+    padding: 30px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+}
+.section-eight .container .content1 h1{
+    font-size: 100px;
+    text-align: left;
+}
+.section-eight .container .content1 p{
+    margin-bottom: 30px;
+}
+.section-eight .container .content1 hr{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.section-eight .container .content1-logo{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 20% 80%;
+    gap: 14px;
+}
+.section-eight .container .content-logo h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+this is the foooter*/
+
+.footer-section{
+    padding: 60px 80px;
+    height: 100vh;
+    color: white;
+    background-color: blue;
+}
+.footer-section .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.footer-section .content .inner h1{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.footer-section .content .inner p{
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-section .content .inner .but{
+    display: flex;
+    justify-content: center;
+}
+.footer-section .content .inner .logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-section .content1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+}
+.footer-section hr{
+    background-color: skyblue;
+}
+
+.last-section{
+    display: flex;
+    justify-content: space-between;
+}
+.last-section .child ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.last-section .child ul li select{
+    background: none;
+    border: none;
+    color: white;
+}
+.last-section .child1{
+    display: flex;
+    gap: 20px;
+}
