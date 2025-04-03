@@ -11,8 +11,6 @@
 
 <body>
     <header class="header-section">
-
-
         <nav class="navbar">
             <div class="nav-logo">
                 <div>
@@ -23,7 +21,7 @@
             </div>
             <div class="nav-icon-container">
                 <div class="nav-icons">
-                    <button class="nav-dropdown-btn"><i class="fa-solid fa-bars"></i></button>
+                    <button id="dropdown" class="nav-dropdown-btn"><i class="fa-solid fa-bars"></i></button>
                     <ul>
                         <li>
                             <select name="" id="">
@@ -54,10 +52,36 @@
                 </div>
             </div>
         </nav>
-
-
-
-
+        <div class="dropdown-container" id="dropdown-container">
+        <div class="dropdown">
+            <ul class="dropdown-content">
+                <li>
+                    <select name="" id="">
+                        <option value="">Products </option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Solutions </option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Resources </option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option value="">Pricing </option>
+                    </select>
+                </li>
+                <li><button class="test">Login</button></li>
+                <li><button class="test">Try Whitespace free <i
+                    class="fa-solid fa-arrow-right"></i></button></li>
+            </ul>
+        </div>
+        <button id="dropdown-cancel" class="dropdown-cancel"><i class="fa-solid fa-xmark"></i></button>
+        </div>
         <section class="hero-section">
             <div class="hero-content">
                 <h1>Get More Done with <br>whitepace</h1>
